@@ -112,6 +112,7 @@ let my_name = "Moiz";
 console.log(`Abdul ${my_name}`);
 
 //  Receipt maker
+
 let name = "Ali";
 let itemsdata = {
 item1 : "Apple",
@@ -127,6 +128,7 @@ let item3_price = parseInt(itemsdata.item3_price.slice(1));
 
 let total_bil = parseInt(item1_price + item2_price + item3_price );
 console.log(`$${total_bil}`);
+
 
 
 
