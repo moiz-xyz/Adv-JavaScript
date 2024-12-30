@@ -111,6 +111,7 @@ function secret(){
 let my_name = "Moiz";
 console.log(`Abdul ${my_name}`);
 
+
 //  Receipt maker
 
 let name = "Ali";
