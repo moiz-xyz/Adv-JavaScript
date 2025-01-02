@@ -1,27 +1,41 @@
 
 
 // 1. Chaining Arrow Functions**
-// Write an arrow function that takes a number and returns another arrow function. \
+// Write an arrow function that takes a number and returns another arrow function. 
 // The second function should take a number and return the sum of both numbers.
+let additon = (a) =>{
+return (b) => {
+     return  a + b
+}
+}
+let a  = ( additon(22222332));
+console.log( a (8624124) );
+//  Output: 30846456
 
-// Example: 
-// `sum(5)(3) // Output: 8`
 
-// ---
 
-// ### **2. Sort an Array of Strings**
-// Write an arrow function that takes an array of strings and returns a new array sorted by the length of each string in ascending order.
+// Sort an Array of Strings**
+// Write an arrow function that takes an array of strings and
+// returns a new array sorted by the length of each string in ascending order.
 
-// **Example:**  
-// `sortByLength(["apple", "cat", "banana", "dog"]) // Output: ["cat", "dog", "apple", "banana"]`
+let arr1 = ["apple", "cat", "banana", "dog"];
+let sort = (arr1) => arr1.sort ( (first, second) => second.length - first.length);
+console.log(( sort(arr1)));
+ // Output: ["cat", "dog", "apple", "banana"]
 
-// ---
+// 3. Array of Squares**
+// Create an arrow function that takes an array of numbers and returns an 
+// array where each number is squared, but only if the number is even.
 
-// ### **3. Array of Squares**
-// Create an arrow function that takes an array of numbers and returns an array where each number is squared, but only if the number is even.
+const squareEven = [1, 2, 3, 4];
+const squared =  (arr3) => {
+     return arr3
+           .filter( num => num % 2 === 0 )
+           .map ( num  => num **2)
+}
+console.log(squared ( [ 1,2,3,4 ] ) ) ;
 
-// **Example:**  
-// `squareEven([1, 2, 3, 4]) // Output: [4, 16]`
+// Output: [4, 16]`
 
 // ---
 
