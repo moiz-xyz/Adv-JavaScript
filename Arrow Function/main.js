@@ -27,7 +27,7 @@ console.log(( sort(arr1)));
 // Create an arrow function that takes an array of numbers and returns an 
 // array where each number is squared, but only if the number is even.
 
-const squareEven = [1, 2, 3, 4];
+// const squareEven = [1, 2, 3, 4];
 const squared =  (arr3) => {
      return arr3
            .filter( num => num % 2 === 0 )
@@ -37,20 +37,21 @@ console.log(squared ( [ 1,2,3,4 ] ) ) ;
 
 // Output: [4, 16]`
 
-// ---
 
-// ### **4. Group Strings by First Letter**
-// Write an arrow function that takes an array of strings and groups them by their first letter. Return an object where the keys are the first letters and the values are arrays of words that start with that letter.
 
-// **Example:**  
-// `groupByFirstLetter(["apple", "banana", "cherry", "apricot", "blueberry"])`  
-// **Output:**  
-// `{ a: ["apple", "apricot"], b: ["banana", "blueberry"], c: ["cherry"] }`
 
-// ---
-
-// ### **5. Calculate Factorial**
+// 5. Calculate Factoria
 // Write an arrow function that takes a number and returns its factorial using recursion.
+
+let factorial = (n) => {
+     let start = 1 ;
+     for ( let i = 1 ; i <=n ; i++  ){
+          start *= i
+     }
+     return start
+}
+
+console.log( factorial (5) );
 
 // **Example:**  
 // `factorial(5) // Output: 120`
