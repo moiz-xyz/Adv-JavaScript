@@ -52,29 +52,19 @@ let factorial = (n) => {
 }
 
 console.log( factorial (5) );
-
-// **Example:**  
-// `factorial(5) // Output: 120`
-
-// ---
+// Output: 120`
 
 // ### **6. Filter Objects by Property**
 // Write an arrow function that takes an array of objects and a property value. Return a new array containing only the objects that have the given property value.
-
 // **Example:**  
 // `filterByProperty([{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }], 25)`  
 // **Output:**  
 // `[{ name: 'Alice', age: 25 }]`
-
-// ---
-
 // ### **7. Count Words in a Sentence**
 // Write an arrow function that takes a string and returns an object where the keys are the words in the string and the values are the number of times each word appears.
 
 // **Example:**  
 // `wordCount("hello world hello") // Output: { hello: 2, world: 1 }`
-
-// ---
 
 // ### **8. Flatten and Filter**
 // Write an arrow function that takes a nested array and flattens it into a single-level array, while filtering out any numbers greater than a given value.
@@ -82,23 +72,15 @@ console.log( factorial (5) );
 // **Example:**  
 // `flattenAndFilter([1, [2, [3, 4]], 5], 3) // Output: [1, 2, 3]`
 
-// ---
-
 // ### **9. Check for Anagrams**
 // Write an arrow function that takes two strings and returns `true` if they are anagrams of each other, and `false` otherwise.
 
 // **Example:**  
 // `isAnagram("listen", "silent") // Output: true`
 
-// ---
-
-// ### **10. Find the Longest Word**
+// 10. Find the Longest Word
 // Write an arrow function that takes a sentence and returns the longest word in it.
 
-// **Example:**  
+// Example: 
 // `longestWord("The quick brown fox jumps over the lazy dog")`  
 // **Output:** `"jumps"`
-
-// ---
-
-// These problems are designed to test your understanding of **arrow functions, closures, recursion, higher-order functions, and array methods**. They will help you think critically about how to structure and optimize your code. Let me know if you need help with any of them!
